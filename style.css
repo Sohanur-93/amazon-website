@@ -62,9 +62,15 @@
     align-items: center;
     height: 40px;
     width: 45%;
-    background-color: #febd69;
+    /* background-color: #febd69; */
     border-radius: 5px;
     justify-content: space-evenly;
+    border: 2px solid transparent;
+    border-radius: 6px;
+}
+.nav-search:hover{
+    border:2px solid #febd69;
+    border-radius: 6px;
 }
 
 .search-select{
@@ -85,10 +91,24 @@
 }
 
 .search-icon{
+    height: 100%;
     width: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
     color: black;
+    background-color: #febd69;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* For Box 4 */
+span{
+    font-size: .7rem;
+}
+
+.nav-second{
+    font-size: .85rem;
+    font-weight: 700;
 }
